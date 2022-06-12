@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @EntityScan("com.example.shortenURL.obj")
 @EnableAutoConfiguration
 public class ServletInitializer extends SpringBootServletInitializer {
-
+//AAA
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(ShortenUrlApplication.class);
